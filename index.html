@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    header{
+      text-align: center;
+      padding: 10px;
+      margin-top: 50px;
+    }
+    div.Content{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+    h1#title{
+      color: #BDBDBD;
+      font-size: 50px;
+    }
+    h1 strong{
+      color: black;
+      font-weight: bolder;
+      font-size: 50px;
+    }
+    p{
+      font-size: 25px;
+    }
+    div.inputs{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    input#email_placeHolder{
+      width: 300px;
+      padding: 15px;
+      border: solid 1px lightgray;
+      border-radius: 25px;
+    }
+    input#btn{
+      color: white;
+      height: inherit;
+      background-color: #4D7BF3;
+      border: none;
+      border-radius: 25px;
+      padding: 15px;
+      width: 120px;
+      box-shadow: 0px 2px 8px #4D7BF3;
+    }
+    div.Images{
+      margin-top: 100px;
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+    }
+    div.Social_links{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    div.links{
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+    div.links img{
+      padding: 5px;
+      border: 1px solid lightgray;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="">
+  </header>
+  <div class="Content">
+    <div class="Texts">
+      <h1 id="title">We are launching <strong>soon!</strong></h1>
+      <p>Subscribe and get notified</p>
+    </div>
+    <div class="inputs">
+      <input id="email_placeHolder" type="text" placeholder="Your email address...">
+      <input id="btn" type="button" value="Notify Me">
+    </div>
+    <div class="Images">
+      <img src="./images/illustration-dashboard.png" alt="dashboard">
+    </div>
+  </div>
+  <footer>
+    <div class="Social_links">
+      <div class="links">
+        <img src="./images/facebook-2-logo-svgrepo-com.svg" alt="Facebook" width="24" height="24">
+        <img src="./images/twitter-color-svgrepo-com.svg" alt="Twitter" width="24" height="24">
+        <img src="./images/instagram-2016-logo-svgrepo-com.svg" alt="instagram" width="24" height="24"> 
+      </div>
+      <span>&copy; opyright Ping. All rights reserved.</span>
+    </div>
+  </footer>
+</body>
+</html>
